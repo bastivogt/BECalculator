@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BE Rechner</string>
+    <string name="referenceValue">Referenzwert</string>
+    <string name="DefaultReferenceValue">100</string>
+    <string name="amount">Menge</string>
+    <string name="compute">Berechnen</string>
+    <string name="carbohydrate">Kohlenhydrate</string>
+    <string name="carboHydrateReferenceValue">Kohlenhydrate je Referenzwert</string>
+    <string name="carboHydrateAmount">Kohlenhydrate je Menge</string>
+    <string name="be">BE</string>
+    <string name="khe">KHE</string>
+    <string name="switchBE">BE</string>
+    <string name="ErrorFillIn">Fehler! Bitte ausfüllen.</string>
+    <string name="amountContained">enthalten</string>
+</resources>

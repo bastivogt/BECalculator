@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BE Calculator</string>
+    <string name="referenceValue">Reference Value</string>
+    <string name="DefaultReferenceValue">100</string>
+    <string name="carboHydrateReferenceValue">Corbohydrate Reference Value</string>
+    <string name="amount">Amount</string>
+    <string name="carboHydrateAmount">Carbohydrate Amount</string>
+    <string name="compute">Compute</string>
+    <string name="carbohydrate">Carbohydrate</string>
+    <string name="be">BE</string>
+    <string name="khe">KHE</string>
+    <string name="switchBE">BE</string>
+    <string name="ErrorFillIn">Error! Please fill in.</string>
+    <string name="amountContained">contained</string>
+</resources>
