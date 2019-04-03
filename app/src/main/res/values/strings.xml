@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BE Calculator</string>
+    <string name="app_name" translatable="false">BE Calculator</string>
     <string name="referenceValue">Reference Value</string>
     <string name="DefaultReferenceValue">100</string>
     <string name="carboHydrateReferenceValue">Corbohydrate Reference Value</string>

@@ -11,6 +11,11 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
+        // logo in actionbar
+/*        supportActionBar?.setDisplayShowHomeEnabled(true)
+        supportActionBar?.setLogo(R.drawable.becalc_logo)
+        supportActionBar?.setDisplayUseLogoEnabled(true)*/
+
         val myIntent = intent
 
         val bc: BECalculator = intent.getSerializableExtra("BC") as BECalculator

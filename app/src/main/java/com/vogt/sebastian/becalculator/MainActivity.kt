@@ -3,6 +3,7 @@ package com.vogt.sebastian.becalculator
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.EditText
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
@@ -14,6 +15,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        // logo in actionbar
+/*        supportActionBar?.setDisplayShowHomeEnabled(true)
+        supportActionBar?.setLogo(R.drawable.becalc_logo)
+        supportActionBar?.setDisplayUseLogoEnabled(true)*/
 
         referenceValue_editText.requestFocus()
 
@@ -42,6 +48,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(resultIntent)
             }
         }
+
     }
 
 
@@ -61,4 +68,7 @@ class MainActivity : AppCompatActivity() {
         }
         return ret
     }
+
+
+
 }
