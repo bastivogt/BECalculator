@@ -12,4 +12,5 @@
     <string name="switchBE">BE</string>
     <string name="ErrorFillIn">Error! Please fill in.</string>
     <string name="amountContained">contained</string>
+    <string name="madeBy" translatable="false">Made by Sebastian Vogt</string>
 </resources>
